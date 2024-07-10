@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0915c148f536d66489ecaa316cde2e9e, type: 3}
+  m_Name: NPC1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 323762705377733990, guid: 7ee79bea4eebc204ba71cea68e46606f, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Ol\xE1 her\xF3i! Tudo bem com voc\xEA?"
+      english: Hello adventurer! How are you?
+      spanish: "\xA1Hola aventurero! \xBFC\xF3mo est\xE1s?"
+  - actorName: "Her\xF3i"
+    profile: {fileID: 21300000, guid: 961fc1c9b1c8e1e44a33329edbf5c9ce, type: 3}
+    sentence:
+      portuguese: "Ol\xE1 Maria! Tudo sim e voc\xEA?"
+      english: Hello friend! All yes what about you?
+      spanish: "\xA1Hola! S\xED, \xBFy t\xFA?"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: Tudo bem! Soube da sua aventura bem sucedida! Muito obrigado por
+        salvar a gente na cidade contra os monstros!
+      english: OK! I heard about your successful adventure! Thank you so much for
+        saving us in the city against the monsters!
+      spanish: "\xA1De acuerdo! \xA1Me enter\xE9 de tu exitosa aventura! \xA1Muchas
+        gracias por salvarnos en la ciudad contra los monstruos!"
+  - actorName: "Her\xF3i"
+    profile: {fileID: 21300000, guid: 961fc1c9b1c8e1e44a33329edbf5c9ce, type: 3}
+    sentence:
+      portuguese: "N\xE3o tem de qu\xEA Maria! E qualquer problema tamb\xE9m voc\xEAs
+        podem me chamar de novo."
+      english: Not really, Mary! And any problem too you can call me again.
+      spanish: "\xA1En realidad no, Mary! Y cualquier problema tambi\xE9n puedes
+        llamarme de nuevo."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "\xC9 bom saber disso! Mas trocando de assunto, o que voc\xEA est\xE1
+        achando dessa nova terra que voc\xEA adquiriu, est\xE1 gostando dela?"
+      english: That's good to know! But changing the subject, what do you think of
+        this new land that you have acquired, are you enjoying it?
+      spanish: "\xA1Es bueno saberlo! Pero cambiando de tema, \xBFqu\xE9 opinas de
+        esta nueva tierra que has adquirido, la est\xE1s disfrutando?"
+  - actorName: "Her\xF3i"
+    profile: {fileID: 21300000, guid: 961fc1c9b1c8e1e44a33329edbf5c9ce, type: 3}
+    sentence:
+      portuguese: Na verdade eu acabei de chegar aqui... Estava resolvendo alguns
+        problemas antes.
+      english: In fact, I just got here... It was solving some problems before.
+      spanish: "De hecho, acabo de llegar aqu\xED... Antes resolv\xEDa algunos problemas."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: Ata tudo bem. Quer que eu te apresente o lugar?
+      english: Tie it all right. Do you want me to introduce you to the place?
+      spanish: "\xC1talo bien. \xBFQuieres que te presente el lugar?"
+  - actorName: "Her\xF3i"
+    profile: {fileID: 21300000, guid: 961fc1c9b1c8e1e44a33329edbf5c9ce, type: 3}
+    sentence:
+      portuguese: Eu gostaria muito!
+      english: I would like it very much!
+      spanish: "\xA1Me gustar\xEDa mucho!"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Ent\xE3o vamos l\xE1! A direita acima \xE9 a sua casa, a azul.
+        E a do lado vermelha \xE9 a casa de seu vizinho Manoel, aventureiro como
+        voc\xEA."
+      english: So let's go! On the right above is his house, in blue. And the one
+        on the red side is the house of your neighbor Manoel, an adventurer like
+        you.
+      spanish: "\xA1As\xED que vamos! A la derecha, arriba est\xE1 su casa, en azul.
+        Y la del lado rojo es la casa de tu vecino Manoel, un aventurero como t\xFA."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Pena que ele n\xE3o est\xE1 aqui para te receber, ele est\xE1
+        em uma miss\xE3o, mas enfim..."
+      english: Too bad he's not here to welcome you, he's on a mission, but anyway...
+      spanish: "L\xE1stima que no est\xE9 aqu\xED para darte la bienvenida, est\xE1
+        en una misi\xF3n, pero de todos modos..."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Tem uma casa para um cachorrinho tamb\xE9m do lado caso queira
+        ter um."
+      english: There is a house for a puppy also next door in case you want to have
+        one.
+      spanish: "Hay una casa para un cachorro tambi\xE9n al lado en caso de que quieras
+        tener una."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "E logo acima tem o Jardim da \xC1rvore Sagrada. Dizem que os frutos
+        que ela produz pode deixar qualquer um mais forte!"
+      english: And just above it is the Garden of the Sacred Tree. It is said that
+        the fruits it produces can make anyone stronger!
+      spanish: "Y justo encima est\xE1 el Jard\xEDn del \xC1rbol Sagrado. \xA1Se
+        dice que los frutos que produce pueden hacer m\xE1s fuerte a cualquiera!"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Abaixo da sua casa, tem um local de plantio de cenouras, cave
+        com a sua p\xE1 e depois derrame \xE1gua com seu regador e veja a m\xE1gica!"
+      english: Below your house, there is a carrot planting spot, dig with your shovel
+        and then tap water with your watering can and see the magic!
+      spanish: Debajo de su casa, hay un lugar para plantar zanahorias, excave con
+        su pala y luego recoja el agua con su regadera y vea la magia.
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Logo tamb\xE9m abaixo, tem um terreno onde voc\xEA pode construir
+        casas para alguns alde\xF5es!"
+      english: Right below is a plot of land where you can build houses for some
+        villagers!
+      spanish: Justo debajo hay una parcela de tierra donde puedes construir casas
+        para algunos aldeanos.
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Onde esta laranja \xE9 aonde pode construir e precisa de 6 madeiras
+        cada casa. Ent\xE3o v\xE1 e derrube algumas! Mas por favor... n\xE3o derrube
+        a \xC1rvore Sagrada!!!"
+      english: Where it's orange is where you can build and you need 6 wood each
+        house. So go and knock some down! But please... don't chop down the Holy
+        Tree!!
+      spanish: "Donde es naranja es donde se puede construir y se necesitan 6 maderas
+        por casa. \xA1As\xED que ve y derriba algunos! Pero por favor... \xA1\xA1No
+        tales el \xC1rbol Sagrado!!"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Na esquerda na estrada, abaixo tem o Lago Claro, onde voc\xEA
+        pode pescar e coletar \xE1gua para o seu regador! Tamb\xE9m tem um po\xE7o
+        perto da sua casa."
+      english: On the left on the road, below is Clear Lake, where you can fish and
+        collect water for your watering can! You also have a well near your house.
+      spanish: "A la izquierda de la carretera, debajo est\xE1 Clear Lake, donde
+        puedes pescar y recoger agua para tu regadera. Tambi\xE9n tienes un pozo
+        cerca de tu casa."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "E para cima tem a Floresta Verde. E nela tem um monte onde constru\xEDram
+        uma est\xE1tua sua! Vai la ver como ficou depois."
+      english: And up there is the Green Forest. And there's a hill on it where they
+        built a statue of you! Go see how it turned out afterwards.
+      spanish: "Y all\xE1 arriba est\xE1 el Bosque Verde. \xA1Y hay una colina en
+        ella donde construyeron una estatua tuya! Ve a ver c\xF3mo result\xF3 despu\xE9s."
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Mas um aviso, nesse bosque do lago e na floresta sempre tem uns
+        esqueletos perdidos vagando por l\xE1!"
+      english: But a warning, in this grove of the lake and in the forest there are
+        always some lost skeletons wandering around!
+      spanish: "Pero una advertencia, \xA1en esta arboleda del lago y en el bosque
+        siempre hay algunos esqueletos perdidos deambulando!"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Mas isso n\xE3o deve ser problema para voc\xEA n\xE3o \xE9 mesmo?
+        Hahaha"
+      english: But that shouldn't be a problem for you, should it? Hahaha
+      spanish: "Pero eso no deber\xEDa ser un problema para ti, \xBFverdad? Jajaja"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "Bom, acho que \xE9 isso. Aproveite e explore bastante esse lugar! "
+      english: 'Well, I think that''s it. Enjoy and explore this place a lot! '
+      spanish: "Bueno, creo que eso es todo. \xA1Disfruta y explora mucho este lugar! "
+  - actorName: "Her\xF3i"
+    profile: {fileID: 21300000, guid: 961fc1c9b1c8e1e44a33329edbf5c9ce, type: 3}
+    sentence:
+      portuguese: "Obrigado pelas informa\xE7\xF5es Maria, vou explorar sim!"
+      english: Thanks for the info Maria, I'll explore yes!
+      spanish: "Gracias por la informaci\xF3n Mar\xEDa, explorar\xE9 s\xED!"
+  - actorName: Maria
+    profile: {fileID: 21300000, guid: 0bee72f32c4c60a41a62c6563fefea24, type: 3}
+    sentence:
+      portuguese: "N\xE3o h\xE1 de qu\xEA!"
+      english: You are welcome!
+      spanish: "\xA1De nada!"
